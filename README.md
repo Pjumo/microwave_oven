@@ -20,10 +20,10 @@
 
 ---
 ## Block Diagram
-![image](https://picsum.photos/600/400)
+![image](asset/block_diagram.png)
 ---
 ## FSM
-![image](https://picsum.photos/600/400)
+![image](asset/fsm.png)
 ---
 ## TroubleShooting
 - time_out과 각종 state를 관리하여 output으로 보내는 모듈을 따로 만들고 싶었으나, 그 조건들이 timer, beep, motor의 동작 과정과 겹치는 부분이 많아 결국 각 동작 모듈 내부에서 output으로 뽑아오게 됨.
